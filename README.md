@@ -6,7 +6,7 @@ The purpose of this project is to be able to show the number of results returned
 
 The project comes with multiple delegate methods that allow for the setting/unsetting and listening of interactions for one or multiple segments.
 
-A sample project is also included within this repository to delinate the usage of this class.
+A sample project is also included within this repository to delineate the usage of this class.
 
 ### Important Note
 This is an unfinished project and is offered *as is* for a proof of concept on how to execute this type of solution. 
