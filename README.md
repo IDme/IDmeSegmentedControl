@@ -15,8 +15,8 @@ This is an unfinished project and is offered *as is* for a proof of concept on h
 The left screenshot shows an example of the loading state of each segment (initiated by pressing *Start All*)
 The right screenshot shows an example of the loaded state of each segment (initiated by pressing *Load Results*) 
 
-<img src="screenshots/sampleLoading.png?raw=true" width="375" height="667"/> 
-<img src="screenshots/sampleLoaded.png?raw=true" width="375" height="667"/>
+<img src="screenshots/sampleLoading.png?raw=true" width="300" height="534"/> 
+<img src="screenshots/sampleLoaded.png?raw=true" width="300" height="534"/>
 
 ### Installation Instructions
 
