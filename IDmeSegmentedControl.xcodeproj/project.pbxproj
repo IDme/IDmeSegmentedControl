@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E23D48719647C8300CC606F /* IDmeSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23D48619647C8300CC606F /* IDmeSegment.m */; };
+		8E6C140B19632E9100811428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6C140A19632E9100811428 /* Foundation.framework */; };
+		8E6C140D19632E9100811428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6C140C19632E9100811428 /* CoreGraphics.framework */; };
+		8E6C140F19632E9100811428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6C140E19632E9100811428 /* UIKit.framework */; };
+		8E6C141519632E9100811428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C141319632E9100811428 /* InfoPlist.strings */; };
+		8E6C141719632E9100811428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C141619632E9100811428 /* main.m */; };
+		8E6C141B19632E9100811428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C141A19632E9100811428 /* AppDelegate.m */; };
+		8E6C141E19632E9100811428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C141C19632E9100811428 /* Main.storyboard */; };
+		8E6C142119632E9100811428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C142019632E9100811428 /* ViewController.m */; };
+		8E6C142319632E9100811428 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C142219632E9100811428 /* Images.xcassets */; };
+		8E6C144119632EB400811428 /* IDmeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C144019632EB400811428 /* IDmeSegmentedControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E23D48519647C8300CC606F /* IDmeSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDmeSegment.h; sourceTree = "<group>"; };
+		8E23D48619647C8300CC606F /* IDmeSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDmeSegment.m; sourceTree = "<group>"; };
+		8E6C140719632E9100811428 /* IDmeSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDmeSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6C140A19632E9100811428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E6C140C19632E9100811428 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E6C140E19632E9100811428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E6C141219632E9100811428 /* IDmeSegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDmeSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		8E6C141419632E9100811428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E6C141619632E9100811428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E6C141819632E9100811428 /* IDmeSegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDmeSegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
+		8E6C141919632E9100811428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E6C141A19632E9100811428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E6C141D19632E9100811428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6C141F19632E9100811428 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E6C142019632E9100811428 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E6C142219632E9100811428 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E6C142919632E9200811428 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E6C143F19632EB400811428 /* IDmeSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDmeSegmentedControl.h; sourceTree = "<group>"; };
+		8E6C144019632EB400811428 /* IDmeSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDmeSegmentedControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6C140419632E9100811428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6C140D19632E9100811428 /* CoreGraphics.framework in Frameworks */,
+				8E6C140F19632E9100811428 /* UIKit.framework in Frameworks */,
+				8E6C140B19632E9100811428 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1F7FE81A7031B200DE56A6 /* IDmeSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8E23D48519647C8300CC606F /* IDmeSegment.h */,
+				8E23D48619647C8300CC606F /* IDmeSegment.m */,
+				8E6C143F19632EB400811428 /* IDmeSegmentedControl.h */,
+				8E6C144019632EB400811428 /* IDmeSegmentedControl.m */,
+			);
+			name = IDmeSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8E6C13FE19632E9100811428 = {
+			isa = PBXGroup;
+			children = (
+				8E6C141019632E9100811428 /* IDmeSegmentedControl */,
+				8E6C140919632E9100811428 /* Frameworks */,
+				8E6C140819632E9100811428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6C140819632E9100811428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6C140719632E9100811428 /* IDmeSegmentedControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6C140919632E9100811428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E6C140A19632E9100811428 /* Foundation.framework */,
+				8E6C140C19632E9100811428 /* CoreGraphics.framework */,
+				8E6C140E19632E9100811428 /* UIKit.framework */,
+				8E6C142919632E9200811428 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E6C141019632E9100811428 /* IDmeSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F7FE81A7031B200DE56A6 /* IDmeSegmentedControl */,
+				8E6C141919632E9100811428 /* AppDelegate.h */,
+				8E6C141A19632E9100811428 /* AppDelegate.m */,
+				8E6C141F19632E9100811428 /* ViewController.h */,
+				8E6C142019632E9100811428 /* ViewController.m */,
+				8E6C141C19632E9100811428 /* Main.storyboard */,
+				8E6C142219632E9100811428 /* Images.xcassets */,
+				8E6C141119632E9100811428 /* Supporting Files */,
+			);
+			path = IDmeSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8E6C141119632E9100811428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6C141219632E9100811428 /* IDmeSegmentedControl-Info.plist */,
+				8E6C141319632E9100811428 /* InfoPlist.strings */,
+				8E6C141619632E9100811428 /* main.m */,
+				8E6C141819632E9100811428 /* IDmeSegmentedControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6C140619632E9100811428 /* IDmeSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6C143919632E9200811428 /* Build configuration list for PBXNativeTarget "IDmeSegmentedControl" */;
+			buildPhases = (
+				8E6C140319632E9100811428 /* Sources */,
+				8E6C140419632E9100811428 /* Frameworks */,
+				8E6C140519632E9100811428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDmeSegmentedControl;
+			productName = IDmeSegmentedControl;
+			productReference = 8E6C140719632E9100811428 /* IDmeSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6C13FF19632E9100811428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Arthur Ariel Sabintsev";
+			};
+			buildConfigurationList = 8E6C140219632E9100811428 /* Build configuration list for PBXProject "IDmeSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6C13FE19632E9100811428;
+			productRefGroup = 8E6C140819632E9100811428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6C140619632E9100811428 /* IDmeSegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6C140519632E9100811428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6C142319632E9100811428 /* Images.xcassets in Resources */,
+				8E6C141519632E9100811428 /* InfoPlist.strings in Resources */,
+				8E6C141E19632E9100811428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6C140319632E9100811428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6C142119632E9100811428 /* ViewController.m in Sources */,
+				8E6C144119632EB400811428 /* IDmeSegmentedControl.m in Sources */,
+				8E6C141B19632E9100811428 /* AppDelegate.m in Sources */,
+				8E6C141719632E9100811428 /* main.m in Sources */,
+				8E23D48719647C8300CC606F /* IDmeSegment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E6C141319632E9100811428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6C141419632E9100811428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E6C141C19632E9100811428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6C141D19632E9100811428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6C143719632E9200811428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E6C143819632E9200811428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6C143A19632E9200811428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDmeSegmentedControl/IDmeSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "IDmeSegmentedControl/IDmeSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E6C143B19632E9200811428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDmeSegmentedControl/IDmeSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "IDmeSegmentedControl/IDmeSegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6C140219632E9100811428 /* Build configuration list for PBXProject "IDmeSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6C143719632E9200811428 /* Debug */,
+				8E6C143819632E9200811428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6C143919632E9200811428 /* Build configuration list for PBXNativeTarget "IDmeSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6C143A19632E9200811428 /* Debug */,
+				8E6C143B19632E9200811428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6C13FF19632E9100811428 /* Project object */;
+}
